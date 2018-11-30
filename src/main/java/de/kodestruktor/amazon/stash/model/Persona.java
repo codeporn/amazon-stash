@@ -19,10 +19,7 @@ import lombok.Data;
 public class Persona extends AbstractDatedEntity {
 
   @Id
-  private String hash;
-
   @Email
-  @Basic(optional = true)
   private String email;
 
   @NotBlank
