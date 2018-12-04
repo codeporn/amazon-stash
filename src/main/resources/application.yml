@@ -22,3 +22,12 @@ logging:
 auth:
   jwt:
     secret: aer8ohjoh2Eir2is4usheiSh
+
+graphQL:
+  schema:
+    name: graphql-schema
+    description: My GraphQL description
+
+vertx:
+  fileCache:
+    base: c:/temp/vertx
